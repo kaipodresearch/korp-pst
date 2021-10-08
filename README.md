@@ -27,7 +27,8 @@ PST v0.1.0:
 ## Change log of main components:
 
 pst.exe:
-- Pass the hash
+- Getting credentials
+- Spawn file manager process
 
 pst-engine.exe:
 - Port it from mimikatz to customized module
