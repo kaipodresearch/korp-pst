@@ -15,7 +15,7 @@ KORP PST consists of the following executable components:
 	- fm.exe: it is a console based file system manager.
 	- fm-ui.exe: it is a graphical based file system manager.
 
-## KChange log of PST:
+## Change log of PST:
 
 	KORT PST v2.0.0:
 		- Change PsExec with KORP-PsExec
@@ -34,7 +34,7 @@ KORP PST consists of the following executable components:
 		- Upload/Download files from remote machines
 		- Show/Edit files and directories attributes
 
-## KChange log of components and development summary:
+## Change log of components and development summary:
 
 	KORP pst.exe:
 		- Pass the hash
@@ -64,4 +64,4 @@ KORP PST consists of the following executable components:
 		- Upload files to remote machines
 
 	KORP pst-fmg.exe:
-    - It is been developing.
+                - It is been developing.
