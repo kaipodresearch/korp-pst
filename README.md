@@ -3,19 +3,19 @@
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 ![Generic badge](https://img.shields.io/badge/Windows-Passed-blue.svg)
 
-# KORP-PST Overview
+# PST Overview
 KORP-PST (Codename: Triumph) is an penetration testing tool for windows infrastructure that has been developing by Kaipod Homeland Security as a research offensive project. It can be used in red-teaming project and penetration testing of an active directory based environment. 
 
 KORP PST has direct dependency to psexec and some other handy tools for windows environment (like pass-the-hash module of mimikatz). However, in the near future, we have a plan to implement our own tool for doing pass-the-hash and also executing command on remote machines. 
 
-#KORP-PST Components:
+## KORP-PST Components:
 KORP PST consists of the following executable components:
 	- pst.exe: It is main executable that get credentials to spawn file manager.
 	- engine.exe: It is doing pass the hash operation in the background to spawn file manager.
 	- fm.exe: it is a console based file system manager.
 	- fm-ui.exe: it is a graphical based file system manager.
 
-#KChange log of PST:
+## KChange log of PST:
 
 	KORT PST v2.0.0:
 		- Change PsExec with KORP-PsExec
@@ -34,7 +34,7 @@ KORP PST consists of the following executable components:
 		- Upload/Download files from remote machines
 		- Show/Edit files and directories attributes
 
-##KChange log of components and development summary:
+## KChange log of components and development summary:
 
 	KORP pst.exe:
 		- Pass the hash
