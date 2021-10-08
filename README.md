@@ -5,6 +5,10 @@
 
 KORP-PST (Codename: Triumph) is an penetration testing tool for windows infrastructure that has been developing by Kaipod Homeland Security as a research offensive project. It can be used in red-teaming project and penetration testing of an active directory based environment. 
 
+<p align="center">
+<img src="https://github.com/kaipodresearch/korp-pst/blob/main/logo.png">
+</p>
+
 KORP PST has direct dependency to psexec and some other handy tools for windows environment (like pass-the-hash module of mimikatz). However, in the near future, we have a plan to implement our own tool for doing pass-the-hash and also executing command on remote machines. 
 
 ## KORP-PST Components:
