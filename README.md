@@ -28,8 +28,6 @@ PST v0.1.0:
 
 pst.exe:
 - Pass the hash
-- Command execution
-- Remote desktop connection
 
 pst-engine.exe:
 - Port it from mimikatz to customized module
