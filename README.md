@@ -16,7 +16,7 @@ KORP PST consists of the following executable components:
 
 ## Development of the PST:
 		
-KORP PST v0.1.0:
+PST v0.1.0:
 - Console based file system
 - Getting remote desktop connection
 - Delete/Edit files and directories
@@ -26,16 +26,16 @@ KORP PST v0.1.0:
 
 ## Change log of main components:
 
-KORP pst.exe:
+pst.exe:
 - Pass the hash
 - Command execution
 - Remote desktop connection
 
-KORP pst-engine.exe:
+pst-engine.exe:
 - Port it from mimikatz to customized module
 - FUD it from main anti-viruses
 
-KORP pst-fmc.exe:
+pst-fmc.exe:
 - Change directories
 - Make files
 - Make directories
@@ -53,7 +53,7 @@ KORP pst-fmc.exe:
 - Download files from remote machines
 - Upload files to remote machines
 
-KORP pst-fmg.exe:
+pst-fmg.exe:
 - It is been developing.
 
 # Contact:
