@@ -21,7 +21,7 @@ KORP PST consists of the following executable components:
 ## Development of the PST:
 		
 PST v0.1.0:
-- Console based file system
+- Spawn a console based file system
 - Getting remote desktop connection
 - Delete/Edit files and directories
 - Executing command on remote machine
