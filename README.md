@@ -1,3 +1,8 @@
+# Kaipod Offensive Research Project: PST
+![Generic badge](https://img.shields.io/badge/version-1.0.0-red.svg)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![Generic badge](https://img.shields.io/badge/Windows-Passed-blue.svg)
+
 # KORP-PST Overview
 KORP-PST (Codename: Triumph) is an penetration testing tool for windows infrastructure that has been developing by Kaipod Homeland Security as a research offensive project. It can be used in red-teaming project and penetration testing of an active directory based environment. 
 
