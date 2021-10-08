@@ -24,7 +24,7 @@ KORP PST v0.1.0:
 - Upload/Download files from remote machines
 - Show/Edit files and directories attributes
 
-## Change log of components and development summary:
+## Change log of main components:
 
 KORP pst.exe:
 - Pass the hash
