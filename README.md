@@ -1,5 +1,5 @@
 # Kaipod Offensive Research Project: PST
-![Generic badge](https://img.shields.io/badge/version-1.0.0-red.svg)
+![Generic badge](https://img.shields.io/badge/version-0.1.0-red.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 ![Generic badge](https://img.shields.io/badge/Windows-Passed-blue.svg)
 
