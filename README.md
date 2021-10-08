@@ -13,10 +13,10 @@ KORP PST has direct dependency to psexec and some other handy tools for windows 
 
 ## KORP-PST Components:
 KORP PST consists of the following executable components:
-	- pst.exe: It is main executable that get credentials to spawn file manager.
-	- engine.exe: It is doing pass the hash operation in the background to spawn file manager.
-	- fm.exe: it is a console based file system manager.
-	- fm-ui.exe: it is a graphical based file system manager.
+- **pst.exe:** It is main executable that get credentials to spawn file manager.
+- **engine.exe:** It is doing pass the hash operation in the background to spawn file manager.
+- **pst-fmc.exe:** it is a console based file system manager.
+- **pst-fmg.exe:** it is a graphical based file system manager.
 
 ## Development of the PST:
 		
