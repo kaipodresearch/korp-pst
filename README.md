@@ -16,52 +16,51 @@ KORP PST consists of the following executable components:
 	- fm-ui.exe: it is a graphical based file system manager.
 
 ## Change log of PST:
-
-	KORT PST v2.0.0:
-		- Change PsExec with KORP-PsExec
-		- Change Mimikatz with KORP-PTH
+KORT PST v2.0.0:
+- Change PsExec with KORP-PsExec
+- Change Mimikatz with KORP-PTH
 		
-	KORP PST v1.0.0:
-		- Graphical based file system
-		- Domain information summary
-		- Active machines in the domain
+KORP PST v1.0.0:
+- Graphical based file system
+- Domain information summary
+- Active machines in the domain
 		
-	KORP PST v0.1.0:
-		- Console based file system
-		- Getting remote desktop connection
-		- Delete/Edit files and directories
-		- Executing command on remote machine
-		- Upload/Download files from remote machines
-		- Show/Edit files and directories attributes
+KORP PST v0.1.0:
+- Console based file system
+- Getting remote desktop connection
+- Delete/Edit files and directories
+- Executing command on remote machine
+- Upload/Download files from remote machines
+- Show/Edit files and directories attributes
 
 ## Change log of components and development summary:
 
-	KORP pst.exe:
-		- Pass the hash
-		- Command execution
-		- Remote desktop connection
+KORP pst.exe:
+- Pass the hash
+- Command execution
+- Remote desktop connection
 
-	KORP pst-engine.exe:
-		- Port it from mimikatz to customized module
-		- FUD it from main anti-viruses
+KORP pst-engine.exe:
+- Port it from mimikatz to customized module
+- FUD it from main anti-viruses
 
-	KORP pst-fmc.exe:
-		- Change directories
-		- Make files
-		- Make directories
-		- Delete files
-		- Delete directories
-		- Show files attribute
-		- Show directories attribute
-		- Edit files attribute
-		- Edit directories attribute
-		- List directories contents
-		- Clear the screeen
-		- Getting cmd.exe access
-		- Getting remote connection (RDP) access
-		- Show non-latin files/directories names
-		- Download files from remote machines
-		- Upload files to remote machines
+KORP pst-fmc.exe:
+- Change directories
+- Make files
+- Make directories
+- Delete files
+- Delete directories
+- Show files attribute
+- Show directories attribute
+- Edit files attribute
+- Edit directories attribute
+- List directories contents
+- Clear the screeen
+- Getting cmd.exe access
+- Getting remote connection (RDP) access
+- Show non-latin files/directories names
+- Download files from remote machines
+- Upload files to remote machines
 
-	KORP pst-fmg.exe:
-                - It is been developing.
+KORP pst-fmg.exe:
+- It is been developing.
