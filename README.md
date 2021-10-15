@@ -31,30 +31,12 @@ KORP PST consists of the following executable components:
 
 ![](https://img.shields.io/static/v1?label=&message=pst.exe:&color=blue)
 - Getting credentials
-- Spawn file manager process
-- Launch Different Types of Payload
+- Spawn CMD.exe
+- Make RDP Connection
 
 ![](https://img.shields.io/static/v1?label=&message=pst-engine.exe:&color=blue)
 - Pass-the-hash module
 - FUD it from main anti-viruses
-
-![](https://img.shields.io/static/v1?label=&message=pst-fmc.exe:&color=blue)
-- Change directories
-- Make files
-- Make directories
-- Delete files
-- Delete directories
-- Show files attribute
-- Show directories attribute
-- Edit files attribute
-- Edit directories attribute
-- List directories contents
-- Clear the screeen
-- Getting cmd.exe access
-- Getting remote connection (RDP) access
-- Show non-latin files/directories names
-- Download files from remote machines
-- Upload files to remote machines
 
 # Contact:
 - e-mail: m.kahsari@gmail.com
