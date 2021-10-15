@@ -20,7 +20,7 @@ KORP PST consists of the following executable components:
 
 ## Development of the PST:
 		
-PST v0.1.0:
+[#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `PST v0.1.0:`
 - Spawn a console based file system
 - Getting remote desktop connection
 - Delete/Edit files and directories
