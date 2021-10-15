@@ -33,6 +33,7 @@ PST v0.1.0:
 pst.exe:
 - Getting credentials
 - Spawn file manager process
+- Launch Different Types of Payload
 
 pst-engine.exe:
 - Port it from mimikatz to customized module
