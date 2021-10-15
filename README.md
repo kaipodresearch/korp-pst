@@ -24,7 +24,6 @@ PST v0.1.0:
 - Spawn a console based file system
 - Getting remote desktop connection
 - Delete/Edit files and directories
-- Executing command on remote machine
 - Upload/Download files from remote machines
 - Show/Edit files and directories attributes
 
