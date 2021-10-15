@@ -19,9 +19,8 @@ KORP PST consists of the following executable components:
 - **pst-fmg.exe:** it is a graphical based file system manager (It will add to the pst in the near future).
 
 ## Development of the PST:
-```diff
-- PST v0.1.0:
-```
+ ![](https://img.shields.io/static/v1?label=&message=PST-v0.1.0:&color=brown)
+
 - Spawn a console based file system
 - Getting remote desktop connection
 - Delete/Edit files and directories
@@ -30,16 +29,16 @@ KORP PST consists of the following executable components:
 
 ## Change log of main components:
 
-pst.exe:
+![](https://img.shields.io/static/v1?label=&message=pst.exe:&color=blue)
 - Getting credentials
 - Spawn file manager process
 - Launch Different Types of Payload
 
-pst-engine.exe:
-- Port it from mimikatz to customized module
+![](https://img.shields.io/static/v1?label=&message=pst-engine.exe:&color=blue)
+- Pass-the-hash module
 - FUD it from main anti-viruses
 
-pst-fmc.exe:
+![](https://img.shields.io/static/v1?label=&message=pst-fmc.exe:&color=blue)
 - Change directories
 - Make files
 - Make directories
@@ -56,9 +55,6 @@ pst-fmc.exe:
 - Show non-latin files/directories names
 - Download files from remote machines
 - Upload files to remote machines
-
-pst-fmg.exe:
-- It is been developing.
 
 # Contact:
 - e-mail: m.kahsari@gmail.com
