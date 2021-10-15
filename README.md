@@ -19,8 +19,9 @@ KORP PST consists of the following executable components:
 - **pst-fmg.exe:** it is a graphical based file system manager (It will add to the pst in the near future).
 
 ## Development of the PST:
-		
-[#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `PST v0.1.0:`
+```diff
+- PST v0.1.0:
+```
 - Spawn a console based file system
 - Getting remote desktop connection
 - Delete/Edit files and directories
