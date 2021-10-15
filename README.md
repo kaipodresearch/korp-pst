@@ -21,11 +21,8 @@ KORP PST consists of the following executable components:
 ## Development of the PST:
  ![](https://img.shields.io/static/v1?label=&message=PST-v0.1.0:&color=brown)
 
-- Spawn a console based file system
+- Spawn CMD.exe
 - Getting remote desktop connection
-- Delete/Edit files and directories
-- Upload/Download files from remote machines
-- Show/Edit files and directories attributes
 
 ## Change log of main components:
 
