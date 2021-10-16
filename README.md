@@ -22,7 +22,7 @@ KORP PST consists of the following executable components:
  ![](https://img.shields.io/static/v1?label=&message=PST-v0.1.0:&color=brown)
 
 - Spawn CMD.exe
-- Getting remote desktop connection
+- Make RDP Connection
 
 ## Change log of main components:
 
