@@ -19,21 +19,16 @@ KORP PST consists of the following executable components:
 - **pst-fmg.exe:** it is a graphical based file system manager (It will add to the pst in the near future).
 
 ## Development of the PST:
- ![](https://img.shields.io/static/v1?label=&message=PST-v0.1.0:&color=brown)
+![](https://img.shields.io/static/v1?label=&message=PST-v1.0.0:&color=brown)
+- Console based file system
 
+
+![](https://img.shields.io/static/v1?label=&message=PST-v0.1.0:&color=brown)
 - Spawn CMD.exe
 - Make RDP Connection
 - Spawn a console-based file manager
 
-## Change log of PST:
-![](https://img.shields.io/static/v1?label=&message=KORP-PST-v1.0.0:&color=green)
-- Console based file system
-		
-![](https://img.shields.io/static/v1?label=&message=KORP-PST-v0.1.0:&color=green)
-- Getting remote desktop connection
-- Executing command on remote machine
-  
-## Change log of main components:
+## Features of main components:
 
 ![](https://img.shields.io/static/v1?label=&message=pst.exe:&color=blue)
 - Getting credentials
@@ -45,6 +40,24 @@ KORP PST consists of the following executable components:
 - Pass-the-hash module
 - FUD it from main anti-viruses
 
+![](https://img.shields.io/static/v1?label=&message=pst-fmc.exe:&color=blue)
+- Change directories
+- Make files
+- Make directories
+- Delete files
+- Delete directories
+- Show files attribute
+- Show directories attribute
+- Edit files attribute
+- Edit directories attribute
+- List directories contents
+- Clear the screeen
+- Getting cmd.exe access
+- Getting remote connection (RDP) access
+- Show non-latin files/directories names
+- Download files from remote machines
+- Upload files to remote machines
+		
 # Contact:
 - e-mail: m.kahsari@gmail.com
 - website: kaipod.ir
