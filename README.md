@@ -37,6 +37,10 @@ KORP PST consists of the following executable components:
 - Delete directories
 - List directories content
 		
+# Bug Tracker:
+![](https://img.shields.io/static/v1?label=&message=pst-v0.1.0:&color=red)
+- no bug no pain. :D
+
 # Contact:
 - e-mail: m.kahsari@gmail.com
 - website: kaipod.ir
