@@ -35,17 +35,7 @@ KORP PST consists of the following executable components:
 - Make directories
 - Delete files
 - Delete directories
-- Show files attribute
-- Show directories attribute
-- Edit files attribute
-- Edit directories attribute
-- List directories contents
-- Clear the screeen
-- Getting cmd.exe access
-- Getting remote connection (RDP) access
-- Show non-latin files/directories names
-- Download files from remote machines
-- Upload files to remote machines
+- List directories content
 		
 # Contact:
 - e-mail: m.kahsari@gmail.com
