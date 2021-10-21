@@ -19,17 +19,6 @@ KORP PST consists of the following executable components:
 - **pst-fmg.exe:** it is a graphical based file system manager (It will add to the pst in the near future).
 
 ## Development of the PST:
-![](https://img.shields.io/static/v1?label=&message=PST-v1.0.0:&color=brown)
-- Console based file system
-
-
-![](https://img.shields.io/static/v1?label=&message=PST-v0.1.0:&color=brown)
-- Spawn CMD.exe
-- Make RDP Connection
-- Spawn a console-based file manager
-
-## Features of main components:
-
 ![](https://img.shields.io/static/v1?label=&message=pst.exe:&color=blue)
 - Getting credentials
 - Spawn CMD.exe
