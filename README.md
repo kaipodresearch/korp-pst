@@ -23,13 +23,23 @@ KORP PST consists of the following executable components:
 
 - Spawn CMD.exe
 - Make RDP Connection
+- Spawn a console-based file manager
 
+## Change log of PST:
+![](https://img.shields.io/static/v1?label=&message=KORP-PST-v1.0.0:&color=blue)
+		- Console based file system
+		
+![](https://img.shields.io/static/v1?label=&message=KORP-PST-v0.1.0:&color=blue)
+		- Getting remote desktop connection
+		- Executing command on remote machine
+  
 ## Change log of main components:
 
 ![](https://img.shields.io/static/v1?label=&message=pst.exe:&color=blue)
 - Getting credentials
 - Spawn CMD.exe
 - Make RDP Connection
+- Spawn console based file manager
 
 ![](https://img.shields.io/static/v1?label=&message=pst-engine.exe:&color=blue)
 - Pass-the-hash module
