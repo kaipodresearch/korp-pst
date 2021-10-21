@@ -26,10 +26,10 @@ KORP PST consists of the following executable components:
 - Spawn a console-based file manager
 
 ## Change log of PST:
-![](https://img.shields.io/static/v1?label=&message=KORP-PST-v1.0.0:&color=brown)
+![](https://img.shields.io/static/v1?label=&message=KORP-PST-v1.0.0:&color=green)
 - Console based file system
 		
-![](https://img.shields.io/static/v1?label=&message=KORP-PST-v0.1.0:&color=brown)
+![](https://img.shields.io/static/v1?label=&message=KORP-PST-v0.1.0:&color=green)
 - Getting remote desktop connection
 - Executing command on remote machine
   
