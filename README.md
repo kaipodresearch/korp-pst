@@ -1,5 +1,5 @@
 # Kaipod Offensive Research Project: PST
-![Generic badge](https://img.shields.io/badge/version-0.1.0-red.svg)
+![Generic badge](https://img.shields.io/badge/version-1.1.0-red.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 ![Generic badge](https://img.shields.io/badge/Windows-Passed-blue.svg)
 
@@ -42,7 +42,7 @@ KORP PST consists of the following executable components:
 - Create an CMD.exe instance of remote machine
 		
 # Bug Tracker:
-![](https://img.shields.io/static/v1?label=&message=pst-v0.1.0:&color=red)
+![](https://img.shields.io/static/v1?label=&message=pst-v1.1.0:&color=red)
 - no bug no pain. :D
 
 # Contact:
