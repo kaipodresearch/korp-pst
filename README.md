@@ -27,7 +27,7 @@ KORP PST consists of the following executable components:
 
 ![](https://img.shields.io/static/v1?label=&message=pst-engine.exe:&color=blue)
 - Pass-the-hash module
-- FUD it from main anti-viruses
+- FUD it from some anti-viruses
 
 ![](https://img.shields.io/static/v1?label=&message=pst-fmc.exe:&color=blue)
 - Change directories
@@ -36,6 +36,10 @@ KORP PST consists of the following executable components:
 - Delete files
 - Delete directories
 - List directories content
+- Show files/directories attributes
+- Change files/directories attributes
+- Make an RDP connection with remote machine
+- Create an CMD.exe instance of remote machine
 		
 # Bug Tracker:
 ![](https://img.shields.io/static/v1?label=&message=pst-v0.1.0:&color=red)
