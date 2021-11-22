@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>383</width>
+    <height>459</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>KORP PST</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>fire.ico</normaloff>fire.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QGroupBox" name="groupBoxMainPanel">
+      <property name="font">
+       <font>
+        <family>Consolas</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 1em; /* leave space at the top for the title */
+    border-color: rgb(0, 170, 255);
+}
+
+QGroupBox::title {
+    border: 2px solid  rgb(0, 170, 255);
+    border-radius: 10px;
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    background-color:  rgb(0, 170, 255);
+}</string>
+      </property>
+      <property name="title">
+       <string>«Target Machine Information»</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QLabel" name="labelUsername">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Username:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditUsername">
+         <property name="styleSheet">
+          <string notr="true">padding: 4px;
+font-size: 17px;
+border-width: 3px;
+border-color: red;
+background-color: #FFFFFF;
+color: #000000;
+border-style: solid;
+border-radius: 10px;
+box-shadow: 0px 0px 11px rgba(223,242,151,.60);
+text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+outline:none;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelPassword">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Password (NTLM):</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditPassword">
+         <property name="styleSheet">
+          <string notr="true">padding: 4px;
+font-size: 17px;
+border-width: 3px;
+border-color: red;
+background-color: #FFFFFF;
+color: #000000;
+border-style: solid;
+border-radius: 10px;
+box-shadow: 0px 0px 11px rgba(223,242,151,.60);
+text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+outline:none;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelMachineAddress">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Target Machine Address:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditIpAddress">
+         <property name="styleSheet">
+          <string notr="true">padding: 4px;
+font-size: 17px;
+border-width: 3px;
+border-color: red;
+background-color: #FFFFFF;
+color: #000000;
+border-style: solid;
+border-radius: 10px;
+box-shadow: 0px 0px 11px rgba(223,242,151,.60);
+text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+outline:none;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelFileSystemMode">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Choose Appropriate Payload:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxFileSystemMode">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">padding: 4px;
+border-width: 4px;
+border-color: rgb(255, 170, 0);
+background-color: rgb(0, 85, 0);
+color: rgb(255, 255, 255);
+border-style: solid;
+border-radius: 2px;
+box-shadow: 0px 0px 11px rgba(223,242,151,.60);
+text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+outline:none;</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Command Line</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Remote Desktop</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Console based File System</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Graphical based File System</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonConnection">
+      <property name="font">
+       <font>
+        <family>Consolas</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#pushButtonConnection
+{
+	background-color: #b0ba1b;
+	display:inline-block;
+	padding:0.5em 1.5em;
+	margin:0 0.2em 0.2em 0;
+	border-radius:1em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	position:relative;
+	height: 30px;
+}
+
+QPushButton:hover#pushButtonConnection{
+	background-color: black;
+};</string>
+      </property>
+      <property name="text">
+       <string>CONNECT</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonExit">
+      <property name="font">
+       <font>
+        <family>Consolas</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#pushButtonExit
+{
+	background-color: #b0ba1b;
+	display:inline-block;
+	padding:0.5em 1.5em;
+	margin:0 0.2em 0.2em 0;
+	border-radius:1em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	position:relative;
+	height: 30px;
+	width: 80px;
+}
+
+QPushButton:hover#pushButtonExit{
+	background-color: red;
+};</string>
+      </property>
+      <property name="text">
+       <string>EXIT</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>383</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <addaction name="actionMode"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionKaipod"/>
+    <addaction name="actionCheck_Update"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuOptions"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/new/prefix1/images/about.png</normaloff>:/new/prefix1/images/about.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionMode">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/new/prefix1/images/mode.jpg</normaloff>:/new/prefix1/images/mode.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/new/prefix1/images/quit.png</normaloff>:/new/prefix1/images/quit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionCheck_Update">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/new/prefix1/images/update.png</normaloff>:/new/prefix1/images/update.png</iconset>
+   </property>
+   <property name="text">
+    <string>Check Update</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
+   </property>
+  </action>
+  <action name="actionKaipod">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/new/prefix1/images/www.png</normaloff>:/new/prefix1/images/www.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kaipod</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+K</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
