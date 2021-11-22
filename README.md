@@ -40,6 +40,7 @@ KORP PST consists of the following executable components:
 - Change files/directories attributes
 - Make an RDP connection with remote machine
 - Create an CMD.exe instance of remote machine
+- Upload and Download files from/to remote machine
 		
 # Bug Tracker:
 ![](https://img.shields.io/static/v1?label=&message=pst-v1.1.0:&color=red)
